@@ -10,7 +10,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
-export const Skills = () => {
+export const Curriculum = () => {
 	const responsive = {
 		superLargeDesktop: {
 			// the naming can be any, depends on you.
@@ -32,7 +32,7 @@ export const Skills = () => {
 	};
 
 	return (
-		<section className="skill" id="skills">
+		<section className="skill" id="Curriculum">
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
@@ -55,7 +55,7 @@ export const Skills = () => {
 								</div>
 								<div className="item">
 									<img src={meter2} alt="Image" />
-									<h5>Algoritm</h5>
+									<h5>Algorithm</h5>
 								</div>
 								<div className="item">
 									<img src={meter3} alt="Image" />
