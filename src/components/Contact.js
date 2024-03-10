@@ -76,7 +76,7 @@ export const Contact = () => {
 									{/* <form onSubmit={handleSubmit}> */}
 									<form>
 										<p>
-											모집 일정 : 2024년 3월 11일 ~ 3월 31일 까지<br></br>
+											모집 일정 : 2024년 3월 11일 ~ 3월 28일 까지<br></br>
 											지원 자격 : 성일정보고등학교 재학생 누구나<br></br>
 											<b>
 												주의 사항 : 구글폼 작성시 학교 계정(@sungil-i.kr)을

@@ -54,7 +54,7 @@ export const NavBar = () => {
 								Home
 							</Nav.Link>
 							<Nav.Link
-								href="#Curriculum"
+								href="#curriculum"
 								className={
 									activeLink === "skills" ? "active navbar-link" : "navbar-link"
 								}
@@ -62,7 +62,7 @@ export const NavBar = () => {
 								Curriculum
 							</Nav.Link>
 							<Nav.Link
-								href="#Generation"
+								href="#generation"
 								className={
 									activeLink === "projects"
 										? "active navbar-link"
