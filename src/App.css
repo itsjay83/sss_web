@@ -364,7 +364,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
-.project div p {
+.project section div p {
   text-align: left;
 }
 /* 
