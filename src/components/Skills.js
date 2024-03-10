@@ -1,6 +1,9 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/SSS/Programming basic.svg";
+import meter2 from "../assets/img/SSS/Algorithm.svg";
+import meter3 from "../assets/img/SSS/web.svg";
+import meter4 from "../assets/img/SSS/app.svg";
+import meter5 from "../assets/img/SSS/Game.svg";
+import meter6 from "../assets/img/SSS/AI.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -36,9 +39,11 @@ export const Skills = () => {
 						<div className="skill-bx wow zoomIn">
 							<h2>커리큘럼</h2>
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting
-								industry.<br></br> Lorem Ipsum has been the industry's standard
-								dummy text.
+								저희 스터디의 커리큘럼은 프로그래밍 기초부터 시작하여 알고리즘,
+								게임 개발, 웹 개발, 앱 개발, 인공지능에 이르기까지 포괄적으로
+								다루고 있습니다. <br></br>이를 통해 멤버들은 소프트웨어 개발의
+								다양한 양상을 경험하며 자신의 관심사와 역량에 맞는 분야를 탐색할
+								수 있습니다.<br></br>
 							</p>
 							<Carousel
 								responsive={responsive}
@@ -46,19 +51,27 @@ export const Skills = () => {
 								className="owl-carousel owl-theme skill-slider">
 								<div className="item">
 									<img src={meter1} alt="Image" />
-									<h5>Web Development</h5>
+									<h5>Programming Baisc</h5>
 								</div>
 								<div className="item">
 									<img src={meter2} alt="Image" />
-									<h5>Brand Identity</h5>
+									<h5>Algoritm</h5>
 								</div>
 								<div className="item">
 									<img src={meter3} alt="Image" />
-									<h5>Logo Design</h5>
+									<h5>Web Development</h5>
 								</div>
 								<div className="item">
-									<img src={meter1} alt="Image" />
-									<h5>Web Development</h5>
+									<img src={meter4} alt="Image" />
+									<h5>App Development</h5>
+								</div>
+								<div className="item">
+									<img src={meter5} alt="Image" />
+									<h5>Game Development</h5>
+								</div>
+								<div className="item">
+									<img src={meter6} alt="Image" />
+									<h5>A.I</h5>
 								</div>
 							</Carousel>
 						</div>

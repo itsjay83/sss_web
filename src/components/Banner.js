@@ -82,7 +82,7 @@ export const Banner = () => {
 										우리는 서로의 지식과 경험을 공유하며 함께 성장해가고
 										있습니다.
 									</p>
-									<a href="https://forms.gle/1ky2UgWJuQhPderm9">
+									<a href="#connect">
 										<button onClick={() => console.log("connect")}>
 											SSS 신청하기 <ArrowRightCircle size={25} />
 										</button>

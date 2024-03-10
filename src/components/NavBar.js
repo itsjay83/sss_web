@@ -29,6 +29,10 @@ export const NavBar = () => {
 		setActiveLink(value);
 	};
 
+	const clickInsta = () => {
+		window.open("https://www.instagram.com/sungil_sss/", "_blank");
+	};
+
 	return (
 		<Router>
 			<Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -71,7 +75,7 @@ export const NavBar = () => {
 						<span className="navbar-text">
 							<div className="social-icon">
 								<a
-									href="https://www.instagram.com/sungil_sss/"
+									href="https://github.com/Sungil-SoftWare-Study"
 									target="_blank"
 									rel="noopener noreferrer">
 									<img src={navIcon2} alt="ig" />
@@ -81,14 +85,12 @@ export const NavBar = () => {
 								<a
 									href="https://www.instagram.com/sungil_sss/"
 									target="_blank"
-									rel="noopener noreferrer">
+									rel="noopener noreferrer"
+									onClick={clickInsta}>
 									<img src={navIcon3} alt="ig" />
 								</a>
 							</div>
-							<a
-								href="https://forms.gle/1ky2UgWJuQhPderm9"
-								target="_blank"
-								rel="noopener noreferrer">
+							<a href="#connect">
 								<button className="vvd">
 									<span>Join SSS</span>
 								</button>
