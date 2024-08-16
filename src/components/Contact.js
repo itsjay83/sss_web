@@ -13,7 +13,7 @@ export const Contact = () => {
 		message: "",
 	};
 	const [formDetails, setFormDetails] = useState(formInitialDetails);
-	const [buttonText, setButtonText] = useState("신청하러 가기");
+	const [buttonText, setButtonText] = useState("마감되었습니다.");
 	const [status, setStatus] = useState({});
 
 	const onFormUpdate = (category, value) => {
@@ -23,8 +23,9 @@ export const Contact = () => {
 		});
 	};
 	const buttonClicked = () => {
-		window.open("https://forms.gle/1Ymxo72rviMXDoAKA", "_blank");
+		// window.open("https://forms.gle/1Ymxo72rviMXDoAKA", "_blank");
 	};
+
 	// const handleSubmit = async (e) => {
 	// 	e.preventDefault();
 	// 	setButtonText("Sending...");
@@ -76,17 +77,8 @@ export const Contact = () => {
 									{/* <form onSubmit={handleSubmit}> */}
 									<form>
 										<p>
-											모집 일정 : 2024년 3월 11일 ~ 3월 28일 까지<br></br>
-											지원 자격 : 성일정보고등학교 재학생 누구나<br></br>
-											<b>
-												주의 사항 : 구글폼 작성시 학교 계정(@sungil-i.kr)을
-												사용하세요
-											</b>
-											<br></br>
-											학교 계정으로 진입 할 줄 모르거나, 모종의 오류가
-											발생한경우
-											<br></br>
-											'010-9882-9831 31120-이제석' 으로 연락주세요
+											신청이 마감되었습니다!<br></br>
+											많은 관심 감사합니다.
 										</p>
 										{/* <Row>
 											<Col size={12} sm={6} className="px-1">
